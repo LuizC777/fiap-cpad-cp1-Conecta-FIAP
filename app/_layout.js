@@ -10,7 +10,7 @@ export default function Layout() {
       screenOptions={{
         headerLeft: () => (
           <TouchableOpacity
-            onPress={() => router.push("/ScreenThree")}
+            onPress={() => router.push("/ProfileScreen")}
             style={styles.headerButton}
           >
             <Ionicons
@@ -54,12 +54,12 @@ export default function Layout() {
           tabBarShowLabel: false,
           headerTitle: "",
           tabBarIcon: ({ color }) => (
-            <Ionicons name="bug-outline" size={22} color={color} />
+            <Ionicons name="add-circle-outline" size={22} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="ScreenThree"
+        name="ProfileScreen"
         options={{
           tabBarShowLabel: false,
           headerTitle: "",

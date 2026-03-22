@@ -120,7 +120,6 @@ export default function Home() {
 }
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
     alignItems: "center",
     backgroundColor: "#333",
   },
@@ -139,7 +138,7 @@ const styles = StyleSheet.create({
     fontSize: 17,
     fontWeight: "bold",
   },
-  ButtonTextActive: { color: "#fff" },
+  ButtonTextActive: { color: "#E1306C" },
   ButtonTextInactive: { color: "#000" },
 
   GroupSession: {
