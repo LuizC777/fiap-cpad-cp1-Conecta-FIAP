@@ -57,7 +57,7 @@ Para garantir a execução adequada do Conecta FIAP em seu ambiente local, siga 
 ### 2. Tela de Conexões
 <img src="./assets/tela-conexoes.png" width="250" alt="Print da Tela de Conexões">
 
-**Descrição:** Focada no networking acadêmico, esta tela apresenta uma lista de alunos e seus respectivos cursos. A barra de pesquisa superior é totalmente funcional, utilizando efeitos colaterais para filtrar os contatos dinamicamente em tempo real enquanto o usuário digita.
+**Descrição:** Focada no networking acadêmico, esta tela apresenta uma lista de alunos e seus respectivos cursos. Há uma barra de pesquisa utilizando `TextInput`, que permite escrever, mas ainda não há funcionalidade de busca.
 
 <img src="./assets/conexoes.gif" width="250" alt="GIF demonstrativo de Conexões">
 
@@ -87,3 +87,4 @@ Considerando o escopo de MVP deste Checkpoint, as seguintes funcionalidades fora
 1.  **Integração Real:** Conexão com a API de horários da FIAP para validação automática da disponibilidade das salas em tempo real.
 2.  **Sistema de Chat:** Implementação de chat WebSocket para permitir a comunicação instantânea entre os membros de um grupo de estudo.
 3.  **Filtros Avançados:** Criação de filtros por curso, semestre e RM na tela de Conexões para facilitar o networking assertivo.
+4.  **Barra de Pesquisa:** Torná-la totalmente funcional, utilizando efeitos colaterais para filtrar os contatos dinamicamente em tempo real enquanto o usuário digita.
