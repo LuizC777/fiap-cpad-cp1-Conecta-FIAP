@@ -6,7 +6,7 @@ import {
   ScrollView,
   Image,
 } from "react-native";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter } from "expo-router";
 export default function Home() {
   const [active1, setActive1] = useState(false);
@@ -16,6 +16,9 @@ export default function Home() {
   const router = useRouter();
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <View style={styles.titleArea}>
+        <Text style={styles.title}>Sessões disponíveis</Text>
+      </View>
       <View style={[styles.GroupSession, styles.sessionBg1]}>
         <View style={styles.GroupLeft}>
           <View>
@@ -122,6 +125,16 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     backgroundColor: "#333",
+    padding: 30,
+  },
+  titleArea: {
+    width: "100%",
+    marginBottom: 40,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: "bold",
+    color: "#fff",
   },
 
   Button: {
