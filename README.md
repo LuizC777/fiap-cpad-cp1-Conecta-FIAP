@@ -61,7 +61,17 @@ Esta seção apresenta o fluxo operacional do Conecta FIAP, validando a navegaç
 
 _Nota: Os prints acima foram gerados diretamente do ambiente de desenvolvimento._
 
-## 🛠️ Próximos Passos (Diferenciais)
+## 🏗️ Decisões Técnicas
+
+A arquitetura do aplicativo foi fundamentada na modularização de componentes e na gestão de estados locais, cumprindo rigorosamente os requisitos técnicos do Checkpoint.
+
+1. **Estrutura e Componentização:** A interface foi construída utilizando os componentes core do React Native (`View`, `Text`, `Image`, `ScrollView`, `TouchableOpacity`). A estilização foi isolada no final de cada arquivo via `StyleSheet`, garantindo performance na renderização e mantendo a identidade visual da instituição (com o uso de cores hexadecimais padronizadas, como o `#E1306C`).
+
+2. **Navegação (Expo Router):** O roteamento foi implementado através do componente `Tabs` no arquivo `_layout.js`. Essa decisão arquitetônica garante uma navegação persistente no rodapé da aplicação, evitando o recarregamento de telas (através do uso otimizado do método `router.navigate` em detrimento do `router.push` para transições de abas).
+
+3. **Gerenciamento de Estado (Hooks):** O controle de interatividade, como a alternância visual e textual dos botões de inscrição nos grupos de estudo ("Entrar" / "Entrou"), foi implementado estritamente através do hook `useState`. O controle de estado individual para cada card de sessão garante reatividade imediata na interface do usuário.
+
+## 🛠️ Próximos Passos
 
 Considerando o escopo de MVP deste Checkpoint, as seguintes funcionalidades foram mapeadas para implementações futuras, visando aumentar a robustez da plataforma:
 
