@@ -56,7 +56,7 @@ Esta seção apresenta o fluxo operacional do Conecta FIAP, validando a navegaç
 
 | Tela de Feed/Grupos | Tela de Conexões | Tela de Perfil |
 | :---: | :---: | :---: |
-| <img src="WhatsApp Image 2026-03-22 at 20.04.28.jpeg" width="200" alt="Feed de Grupos"> | <img src="https://api.screenshotone.com/take?url=uploaded:image_4.png&access_key=dummy" width="200" alt="Tela de Conexões"> | <img src="https://api.screenshotone.com/take?url=uploaded:image_2.png&access_key=dummy" width="200" alt="Perfil do Usuário"> |
+| <img src="./assets/tela-feed.png" width="200" alt="Feed de Grupos"> | <img src="./assets/tela-conexoes.png" width="200" alt="Tela de Conexões"> | <img src="./assets/tela-perfil.png" width="200" alt="Perfil do Usuário"> |
 
 *Nota: Os prints acima foram gerados diretamente do ambiente de desenvolvimento.*
 
