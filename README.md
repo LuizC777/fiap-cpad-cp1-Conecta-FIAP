@@ -68,7 +68,7 @@ Para garantir a execução adequada do Conecta FIAP em seu ambiente local, siga 
 
 **Descrição:** Interface de apresentação do usuário logado. Exibe dados institucionais (curso e turno) e conta com links de contato funcionais. A integração com APIs nativas permite que o clique redirecione o usuário diretamente para aplicativos externos, como WhatsApp, LinkedIn, GitHub e cliente de E-mail.
 
-*(Nota: Como esta é uma interface focada em exibição de dados e links de redirecionamento, não possui GIF de navegação interna).*
+<img src="./assets/profile.gif" width="250" alt="GIF demonstrativo de Conexões">
 
 ## 🏗️ Decisões Técnicas
 
